@@ -1,0 +1,40 @@
+.BoxContainer{
+    height: 100vh;
+    overflow-x: hidden;
+    width: 100%;
+}
+.main{
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 75vh;
+}
+.left-container{
+    height: 420px;
+    mask-repeat: no-repeat;
+    background-repeat: no-repeat;
+}
+.codeEditor{
+    height: 400px;
+}
+.monaco-editor{
+    height: 0px !important;
+    width: 0px !important;
+}
+.right-container{
+    height: auto;
+}
+.landingButton{
+    box-shadow: 5px 6px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.landingButton:hover{
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px;
+}
+.text-sm{
+    margin-left: 15px;
+}

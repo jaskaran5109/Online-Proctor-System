@@ -1,0 +1,52 @@
+const mongoose=require("mongoose");
+
+const multiplequestionSchema=new mongoose.Schema({
+    questionType:{
+        type:String,
+        requred:true,
+        default:"multiple"
+    },
+    heading:{
+        type:String,
+        required:true,
+    },
+    score:{
+        type:String,
+        required:true,
+    },
+    questionText:{
+        type:String,
+        required:true,
+    },
+    option1:{
+        type:String,
+        required:true,
+    },
+    option2:{
+        type:String,
+        required:true,
+    },
+    option3:{
+        type:String,
+        required:true,
+    },
+    option4:{
+        type:String,
+        required:true,
+    },
+    output:{
+        type:String,
+        required:true,
+    },
+    user:{    
+        type:mongoose.Schema.ObjectId,
+        ref:'User',
+        required:true
+    },
+    createdAt:{
+        type:Date,
+        default:Date.now
+    }
+})
+
+module.exports=mongoose.model("multipleQuestion",multiplequestionSchema)

@@ -1,0 +1,10 @@
+*{
+    margin: 0%;
+}
+.box {
+  cursor: move;
+  color: black;
+  border-radius: 5px;
+  padding: 1em;
+  user-select: none;
+}

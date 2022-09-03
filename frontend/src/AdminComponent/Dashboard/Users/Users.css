@@ -1,0 +1,6 @@
+.users{
+    display: flex;
+}
+.userListContainer{
+    width:100vw;
+}

@@ -1,0 +1,9 @@
+.navigatorContainer{
+    padding-top: 7%;
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+    .navigatorContainer {
+        padding-top: 17%;
+    }
+}

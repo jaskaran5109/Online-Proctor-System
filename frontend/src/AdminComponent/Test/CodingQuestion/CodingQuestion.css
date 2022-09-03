@@ -1,0 +1,63 @@
+.coding-question-container {
+    text-align: center;
+}
+
+.coding-question-editor {
+    padding-top: 3%;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.formContainer {
+    margin-top: 20px;
+    margin-right:5%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.inputBox label{
+    margin-right: 10px;
+}
+.inputBox input,select{
+    padding: 10px;
+    border-radius: 10px;
+}
+.saveandnext{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+.saveandnext input{
+    border-radius: 10px;
+    padding: 8px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: 2%;
+    background-color: rgb(11, 89, 255);
+    color: white;
+    border: none;
+    height: 40px;
+    box-shadow: 4px 4px rgb(92, 92, 92);
+}
+
+.saveandnext input:hover{
+    box-shadow: 0px 0px rgb(white, white, white) !important;
+    background-color: rgba(11, 88, 255, 0.637);
+    font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+    .formContainer{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .formContainer .inputBox{
+        margin-top: 10px;
+    }
+    .coding-question-container {
+        text-align: center;
+    }
+}

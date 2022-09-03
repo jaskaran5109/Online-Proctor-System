@@ -1,0 +1,42 @@
+.LoginSignUpContainer{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    position: fixed;
+    top: 8%;
+    left: 0;
+}
+.LoginSignUpBox{
+    background-color: white;
+    width: 30%;
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+}
+.LoginSignUpBox h2{
+    padding: 20px;
+}
+.signUpinput input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width:60%;
+}
+input[type="submit"]{
+    width:130px;
+    margin: 20px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgb(71, 120, 255);
+    color:white;
+}
+input[type="submit"]:hover{
+    background-color: rgb(37, 79, 194);
+    color:white;
+}
